@@ -1,0 +1,32 @@
+body {
+    background-image: url('./Assets/pngwing.com\ \(9\).png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    margin: 0; 
+    padding: 0; 
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+header img{
+    width: 420px;
+    transform: rotate(180deg);
+}
+.input-field{
+    margin-top: 5%;
+    text-align: center;
+}
+.card-display{
+    margin-top: 2%;
+    text-align: center;
+}
+.card-display img{
+    width: 180px;;
+}
+#button-draw{
+    border-radius: 10%;
+}
